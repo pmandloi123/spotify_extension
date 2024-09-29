@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spotify to Adobe Express</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+
+
+    #popup-container {
+      width: 200px; 
+      height: 150px;
+      padding: 20px;
+      border: 2px solid #1DB954;
+      background-color: white;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+   
+
+    #login-btn { 
+      background-color: #1DB954; 
+      color: white; 
+      padding: 15px;
+      border: none; 
+      cursor: pointer; 
+      font-size: 16px;
+    }
+
+    ul { 
+      list-style-type: none; 
+      padding: 0; 
+    }
+
+    li { 
+      padding: 10px; 
+      background-color: #f4f4f4; 
+      margin-bottom: 10px; 
+      cursor: pointer; 
+      font-size: 14px;
+    }
+  </style>
+
+  
+</head>
+<body>
+  <div id="popup-container">
+    <button id="login-btn">Login with Spotify</button>
+    <div id="dashboard" style="display:none;">
+      <h2>Welcome, <span id="username"></span>!</h2>
+      <p>Email: <span id="userEmail"></span></p>
+      <h3>Your Playlists:</h3>
+      <ul id="playlistList"></ul>
+  </div>
+  </div>
+   
+    
+  </div>
+  <h2>Spotify to Adobe Express</h2>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

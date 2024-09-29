@@ -1,0 +1,16 @@
+{
+    "manifest_version": 4,
+
+  "name": "Spotify to Adobe Express",
+  "version": "1.0",
+  "description": "Log in to Spotify via Google, view downloaded songs, and drag and drop into Adobe Express.",
+  "permissions": ["storage", "identity"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon16.png"
+  }
+}
